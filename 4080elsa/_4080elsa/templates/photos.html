@@ -1,0 +1,54 @@
+﻿{% extends "layout.html" %}
+
+{% block content %}
+
+<h2>{{ title }}.</h2>
+<h3>{{ message }}</h3>
+<style type="text/css">
+    body {
+        background-color: bisque;
+    }
+</style>
+<html>
+<head>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: Spx;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>טבלת תמונות של ריקוד</h2>
+
+    <table style="width:100%">
+        <tr>
+
+            <td>
+                <img src="https://www.elsetge.cat/myimg/f/112-1128215_wallpaper-gallery-maddie-ziegler-dance-photoshoot.jpg" class="img-thumbnail" alt="cinque terre" width="300" height="300">
+
+                <img src="https://i.pinimg.com/originals/7e/9f/c1/7e9fc1ca7fad4f4ce073a65a005f3343.png" class="img-thumbnail" alt="cinque terre" width="300" height="300">
+
+                
+
+                <img src="https://epearl13.files.wordpress.com/2014/03/kalani.jpg" class="img-thumbnail" alt="cinque terre" width="300" height="300">
+
+                <img src="http://brynn-rumfallo.net/gallery/albums/userpics/10001/2017-12-6--16-20-40.jpeg" class="img-thumbnail" alt="cinque terre" width="300" height="300">
+
+                <img src="https://i.pinimg.com/originals/99/c2/cc/99c2cc0f4568fb9ca0cf49049278606b.jpg" class="img-thumbnail" alt="cinque terre" width="300" height="300">
+
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
+
+<p>Use this area to provide additional information.</p>
+
+{% endblock %}
